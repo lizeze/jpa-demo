@@ -14,6 +14,8 @@ public class UserEntity  extends BaseEntity implements Serializable {
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Long id;
 
+    @Column(name = "age")
+    private Integer age;
 
     @Column(name = "name")
     private String name;
